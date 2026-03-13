@@ -22,7 +22,7 @@ export function Header() {
         height: "56px",
         backgroundColor: "rgba(35,35,35,0.96)",
         backdropFilter: "blur(12px)",
-        borderBottom: "1px solid #333",
+        borderTop: "1px solid #333",
       }}
     >
       <nav className="h-full flex items-center gap-8 px-4">

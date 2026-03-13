@@ -26,22 +26,37 @@ export function Hero() {
         </p>
 
         <h1
-          className="text-[#fff] leading-[0.85] tracking-[-0.02em] w-full flex items-center overflow-hidden"
-          style={{ fontFamily: "var(--font-display)" }}
+          className="text-[#fff] leading-[0.85] tracking-[-0.02em] w-full flex items-center"
+          style={{ fontFamily: "'EX LIBRIS', sans-serif" }}
         >
           <span
             className="whitespace-nowrap opacity-0 animate-[fadeSlideRight_0.8s_ease-out_0.4s_forwards]"
-            style={{ fontSize: "clamp(60px, 20vw, 400px)" }}
+            style={{ 
+              fontSize: "750px", 
+              lineHeight: 1, 
+              overflow: "clip", 
+              justifyContent: "flex-start", 
+              alignSelf: "flex-start", 
+              alignItems: "flex-start", 
+              height: "600px" }}
           >
             VM
           </span>
           <span
             className="flex-1 mx-[0.15em] h-12 bg-[#fff] self-center opacity-0 animate-[scaleX_0.6s_ease-out_0.7s_forwards]"
-            style={{ minWidth: "0.3em", transformOrigin: "left center" }}
+            style={{ minWidth: "0.2em", margin:"32px", transformOrigin: "left center" }}
           />
           <span
             className="whitespace-nowrap opacity-0 animate-[fadeSlideLeft_0.8s_ease-out_0.9s_forwards]"
-            style={{ fontSize: "clamp(60px, 20vw, 400px)" }}
+            style={{ 
+              fontSize: "750px", 
+              lineHeight: 1, 
+              overflow: "clip", 
+              justifyContent: "flex-start", 
+              alignSelf: "flex-start", 
+              alignItems: "flex-start", 
+              height: "600px"
+            }}
           >
             DESIGN
           </span>

@@ -3,11 +3,19 @@
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
 
+@font-face {
+  font-family: 'EX LIBRIS';
+  src: url('/fonts/EX LIBRIS.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {
   --background: #232323;
   --foreground: #F6F6F6;
+  --font-display: 'EX LIBRIS', sans-serif;
   --card: #2a2a2a;
   --card-foreground: #F6F6F6;
   --popover: #2a2a2a;
@@ -81,7 +89,7 @@
 @theme inline {
   --font-sans: var(--font-sans), 'Urbanist', sans-serif;
   --font-mono: 'Space Mono', 'Courier New', monospace;
-  --font-display: var(--font-display), 'Space Grotesk', sans-serif;
+  --font-display: 'EX LIBRIS', sans-serif;
   --color-accent-secondary: var(--accent-secondary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
