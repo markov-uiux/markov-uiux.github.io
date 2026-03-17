@@ -14,19 +14,19 @@ const projects = [
   },
   {
     id: "02",
+    title: "Simp Gifts",
+    category: "Landing Page",
+    year: "2025",
+    description: "A platform that helps show support and appreciation by fans to their favorites, by crowdfunding gifts.",
+    link: "https://simp.gifts/",
+  },
+  {
+    id: "03",
     title: "RMSX",
     category: "Case Study",
     year: "2024",
     description: "Musician website. Web brutalism experiment.",
     link: "https://www.behance.net/gallery/206505139/WEB-BRUTALISM-MUSICIAN-WEBSITE-UXUI-DESIGN",
-  },
-  {
-    id: "03",
-    title: "GuruConnect",
-    category: "Case Study",
-    year: "2024",
-    description: "Creating of mentorship platform.",
-    link: "https://www.behance.net/gallery/204051613/GuruConnect-Mentorship-platform-UIUX-Design",
   },
 ]
 
