@@ -15,7 +15,7 @@ const projects = [
   {
     id: "02",
     title: "Simp Gifts",
-    category: "Landing Page11",
+    category: "Landing Page",
     year: "2025",
     description: "A platform that helps show support and appreciation by fans to their favorites, by crowdfunding gifts.",
     link: "https://simp.gifts/",
