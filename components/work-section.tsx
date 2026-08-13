@@ -25,7 +25,7 @@ const projects = [
     title: "This is Software",
     category: "Landing Page",
     year: "2026",
-    description: "Musician website. Web brutalism experiment.",
+    description: "Landing page for a software development company that specializes in building web and mobile applications.",
     link: "https://www.thisissoftware.tech/",
   },
 ]
