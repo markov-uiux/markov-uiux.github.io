@@ -20,7 +20,7 @@ export function Header() {
       className="sticky top-0 z-50"
       style={{
         height: "56px",
-        backgroundColor: "rgba(35,35,35,0.96)",
+        backgroundColor: "rgba(35,35,35,0.80)",
         backdropFilter: "blur(12px)",
         borderTop: "1px solid #333",
       }}

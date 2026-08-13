@@ -22,11 +22,11 @@ const projects = [
   },
   {
     id: "03",
-    title: "RMSX",
-    category: "Case Study",
-    year: "2024",
+    title: "This is Software",
+    category: "Landing Page",
+    year: "2026",
     description: "Musician website. Web brutalism experiment.",
-    link: "https://www.behance.net/gallery/206505139/WEB-BRUTALISM-MUSICIAN-WEBSITE-UXUI-DESIGN",
+    link: "https://www.thisissoftware.tech/",
   },
 ]
 
